@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    float: left;
+    background-color: #3b5998;
+    
+}
+.header_left{
+    width:50%;
+    float: left;
+}
+.header_left img{
+    padding: 20px 120px;
+}
+.header_right{
+    width: 50%;
+    float: left;
+}
+.header_right table{
+    padding-top: 10px;
+    margin-left: 20%;
+}
+.header_right input{
+    border-color: #1d2a5b;
+    border-width: 1px;
+    width: 142px;
+    height: 20px;
+} 
+.header_right label{
+    color:#fff;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#password_text{
+    padding-left: 10px;
+}
+#login_button{
+    padding-left: 10px;
+    
+}
+#log_button{
+    background-color: #4267b2;
+    border-color: #29487d;
+    border-width: 1px;
+    color: white;
+    padding: 3px;
+    cursor: pointer;
+}
+.forget_account{
+    padding-left: 10px;
+    color: #9cb4d8;
+    font-size: 15px;
+    font-family: inherit;
+    font-weight: normal;
+    cursor: pointer;
+}
+.after_header{
+    width: 100%;
+    float: left;
+    background: linear-gradient(white, #D3D8E8);
+}
+.after_header_left{
+    float: left;
+    width: 49%;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+#after_header_left_text{
+    color: #0e385f;
+    float: left;
+    font-size: 23px;
+    font-weight: bold;
+    padding-left: 20%;
+    
+    line-height: 30px;
+}
+.map_image{
+    float: left;
+    padding-top: 20px;
+    padding-left: 15%;
+}
+.after_header_right{
+    float: left;
+    width: 42%;
+    margin-top: 30px;
+    margin-left: 8%;
+}
+.creat_account{
+    
+    FONT-SIZE: 36px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    color: #333;
+}
+.its_free_text{
+    font-size: 19px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding-top: 10px;
+}
+.first_name{
+    width: 32%;
+    padding: 10px;
+    border: 2px solid black;
+}
+.last_name{
+    width: 32%;
+    padding: 10px;
+    border: 2px solid black;
+    margin-left: 18px;
+}
+.phone_number{
+    width: 73%;
+    padding: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.new_password{
+    width: 73%;
+    padding: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.after_header_right form{
+    padding-top: 20px;
+}
+.birthday{
+    padding-top: 20px;
+}
+#birthday_text{
+    font-size: 18px;
+    font-weight: bold;
+}
+.birthday_selection{
+    padding-top: 10px;
+}
+#day{
+    padding: 5px;
+    float: left;
+}
+#month{
+    padding: 5px;
+    float: left;
+}
+#year{
+    padding: 5px;
+    float: left;
+}
+.birthday_selection img {
+    margin-top: 4px;
+    margin-left: 10px;
+}
+.gender{
+    padding-top: 10px;
+}
+#gender_text{
+    font-size: 18px;
+    font-weight: bold;
+}
+.gender_selection{
+    padding-top: 10px;
+}
+.gender_selection_text{
+    font-size: 18px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#male{
+    margin-left: 10px;
+}
+#female{
+    margin-left: 10px;
+}
+
+#custom{
+    margin-left: 10px;
+}
+
+.gender_selection img {
+    margin-top: 6px;
+    margin-left: 15px;
+}
+.privacy_text{
+    margin-top: 20px;
+    width: 68%; 
+}
+.privacy_text_style{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.sign_up_button_style{
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    width: 204px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
